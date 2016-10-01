@@ -70,9 +70,6 @@
 </layers>
 <library>
 <packages>
-<package name="VEML6075">
-<description>UV Sensor, I2C addressable, digikey part no:VEML6075CT-ND</description>
-</package>
 <package name="BQ25504">
 <wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.05" layer="21"/>
 <wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.05" layer="21"/>
@@ -111,8 +108,6 @@
 <wire x1="-1.4" y1="1.25" x2="-1.4" y2="1.3" width="0.05" layer="21"/>
 <wire x1="-1.4" y1="1.35" x2="-1.35" y2="1.35" width="0.05" layer="21"/>
 <text x="-1.5" y="1.75" size="0.3048" layer="25">BQ25504</text>
-</package>
-<package name="EFR32BG1V132F256GM48">
 </package>
 <package name="QFN48">
 <description>&lt;b&gt;48-pin QFN 7 x 7 mm LF48&lt;/b&gt;&lt;p&gt;
@@ -873,69 +868,6 @@ Source: http://v4.cypress.com/cfuploads/img/products/cywusb6934.pdf</description
 </gates>
 <devices>
 <device name="" package="QFN48">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="EFR32BG1V132F256GM48">
-<gates>
-<gate name="G$1" symbol="QFN48" x="0" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="QFN48">
-<connects>
-<connect gate="G$1" pin="2G4RF_ION" pad="2GRF_ION"/>
-<connect gate="G$1" pin="2G4RF_IOP" pad="2GRF_IOP"/>
-<connect gate="G$1" pin="AVDD" pad="AVDD"/>
-<connect gate="G$1" pin="DECOUPLE" pad="DECOUPLE"/>
-<connect gate="G$1" pin="DVDD" pad="DVDD"/>
-<connect gate="G$1" pin="HFXTAL_N" pad="HFXTAL_N"/>
-<connect gate="G$1" pin="HFXTAL_P" pad="HFXTAL_P"/>
-<connect gate="G$1" pin="IOVDD" pad="IOVDD"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="PA0" pad="PA0"/>
-<connect gate="G$1" pin="PA1" pad="PA1"/>
-<connect gate="G$1" pin="PA2" pad="PA2"/>
-<connect gate="G$1" pin="PA3" pad="PA3"/>
-<connect gate="G$1" pin="PA4" pad="PA4"/>
-<connect gate="G$1" pin="PA5" pad="PA5"/>
-<connect gate="G$1" pin="PAVDD" pad="PAVDD"/>
-<connect gate="G$1" pin="PAVSS" pad="PAVSS"/>
-<connect gate="G$1" pin="PB11" pad="PB11"/>
-<connect gate="G$1" pin="PB12" pad="PB12"/>
-<connect gate="G$1" pin="PB13" pad="PB13"/>
-<connect gate="G$1" pin="PB14" pad="PB14"/>
-<connect gate="G$1" pin="PB15" pad="PB15"/>
-<connect gate="G$1" pin="PC10" pad="PC10"/>
-<connect gate="G$1" pin="PC11" pad="PC11"/>
-<connect gate="G$1" pin="PC6" pad="PC6"/>
-<connect gate="G$1" pin="PC7" pad="PC7"/>
-<connect gate="G$1" pin="PC8" pad="PC8"/>
-<connect gate="G$1" pin="PC9" pad="PC9"/>
-<connect gate="G$1" pin="PD10" pad="PD10"/>
-<connect gate="G$1" pin="PD11" pad="PD11"/>
-<connect gate="G$1" pin="PD12" pad="PD12"/>
-<connect gate="G$1" pin="PD13" pad="PD13"/>
-<connect gate="G$1" pin="PD14" pad="PD14"/>
-<connect gate="G$1" pin="PD15" pad="PD15"/>
-<connect gate="G$1" pin="PF0" pad="PF0"/>
-<connect gate="G$1" pin="PF1" pad="PF1"/>
-<connect gate="G$1" pin="PF2" pad="PF2"/>
-<connect gate="G$1" pin="PF3" pad="PF3"/>
-<connect gate="G$1" pin="PF4" pad="PF4"/>
-<connect gate="G$1" pin="PF5" pad="PF5"/>
-<connect gate="G$1" pin="PF6" pad="PF6"/>
-<connect gate="G$1" pin="PF7" pad="PF7"/>
-<connect gate="G$1" pin="RESETN" pad="RESETN"/>
-<connect gate="G$1" pin="RFVDD" pad="RFVDD"/>
-<connect gate="G$1" pin="RFVSS" pad="RFVSS"/>
-<connect gate="G$1" pin="VREGSW" pad="VREGSW"/>
-<connect gate="G$1" pin="VREGVDD" pad="VREGVDD"/>
-<connect gate="G$1" pin="VREGVSS" pad="VREGVSS"/>
-<connect gate="G$1" pin="VSS" pad="VSS"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
